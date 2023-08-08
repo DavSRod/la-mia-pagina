@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi sitio web</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <a href="#" class="logo">Davsrod</a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+            <h2>Hola mundo,<br>Soy <span>David Rodríguez</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, a numquam quam molestiae error amet reprehenderit suscipit, in cupiditate soluta impedit! Sunt rem consequuntur optio iure quas corporis iste unde!</p>
+            <a href="#">Más información
+            </a>
+        </div>
+        <ul class="sci">
+            <li><a href="#"><img src="img/facebook.png"></a></li>
+            <li><a href="#"><img src="img/twitter.png"></a></li>
+            <li><a href="#"><img src="img/linkedin.png"></a></li>
+        </ul>
+    </section>
+    <div id="navigation">
+        <ul>
+            <li><a href="fuentes.html" target="_blank">FUENTES</a></li>
+            <li><a href="colores.html" target="_blank">COLORES</a></li>
+            <li><a href="margins.html" target="_blank">MÁRGENES</a></li>
+            <li><a href="tablas.html" target="_blank">TABLAS</a></li>
+            <li><a href="formularios.html" target="_blank">FORMULARIOS</a></li>
+            <li><a href="menu-iconos.html" target="_blank">MENÚS</a></li>
+            <li><a href="media-query.html" target="_blank">MEDIA QUERY</a></li>
+            <li><a href="transitions.html" target="_blank">TRANSICIONES</a></li>
+            <li><a href="toggle.html" target="_blank">TOGGLE</a></li>
+            <li><a href="menu-subitems.html" target="_blank">MENÚ SUB-ITEMS</a></li>
+            <li><a href="flexbox.html" target="_blank">FLEXBOX</a></li>
+            <li><a href="calendario.html" target="_blank">CALENDARIO</a></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        function toggle() {
+            var sec = document.getElementById("sec")
+            var nav = document.getElementById("navigation")
+            sec.classList.toggle("active")
+            nav.classList.toggle("active")
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(cyan, lightgreen, yellow);
+}
+.box-style {
+    display: inline-block;
+    width: 400px;
+    /* 1er. forma de crear un margen */
+    /* margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px; */
+    /* 2da. forma de crear un margen*/
+    /* margin: 30px 10px; */
+    /* 2er. forma de crear un margen */
+    margin: 30px;
+    /* padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px; */
+    padding: 15px 45px;
+    text-align: justify;
+    /* por defecto viene en 0 */
+    letter-spacing: .1em;
+    /* por defecto viene en 0 */
+    word-spacing: .2em;
+    /* por defecto viene en 1.2em */
+    line-height: 2em;
+}
+.box-1 {
+    /*grosor del border, tipo de border y color del borde*/
+    border: 10px solid black;
+}
+.box-2 {
+    border: 10px groove red;
+}
+.box-3 {
+    border: 10px dotted blue;
+}
+.box-4 {
+    border: 10px double darkcyan;
+}
+.box-5 {
+    border: 10px ridge yellowgreen;
+}
+.box-6 {
+    border: 10px inset orchid;
+}
+.box-7 {
+    border: 10px outset green;
+}
+p {
+    font-size: 1.4em;
+    color: rgb(48, 48, 48);
+}

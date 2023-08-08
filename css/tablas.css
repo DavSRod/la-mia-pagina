@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(80, 80, 226);
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+.table-box {
+    display: flex;
+    justify-content: center;
+}
+table {
+    border-collapse: collapse;
+    font-size: 1.8em;
+    font-family: sans-serif;
+}
+th, td {
+    /* border: 1px solid rgb(24, 24, 24); */
+    padding: 10px 15px;
+}
+.plan {
+    background-color: rgb(241, 161, 95);
+    color: white;
+    border-right: 10px solid rgb(80, 80, 226);
+}
+.col-style {
+    width: 150px;
+}
+.col-pln {
+    background-color: rgb(255, 120, 13);
+    color: white;
+}
+.col-prize {
+    background-color: rgb(241, 161, 95);
+    color: white;
+}
+.col-mes {
+    background-color: rgb(255, 120, 13);
+    color: white;
+}
+.color-row {
+    background-color: rgb(194, 194, 199);
+}
+.color-white {
+    background-color: rgb(255, 255, 255);
+}
+.img-check {
+    display: block;
+    margin: 0 auto;
+}
+.logo-equis {
+    font-size: 1.4em;
+    color: rgb(64, 64, 64);
+    font-weight: 900;
+    font-family: tahoma, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.barra {
+    border-right: 10px solid rgb(80, 80, 226);
+}

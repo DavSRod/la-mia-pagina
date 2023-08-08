@@ -1,0 +1,355 @@
+* {
+    font-family: sans-serif;
+}
+body {
+    background-color: aquamarine;
+}
+h1 {
+    text-align: center;
+    color: red;
+}
+h2 {
+    color: blue;
+}
+.main-box {
+    width: 800px;
+    margin: 0 auto 0 auto;
+    gap: 20px;
+    border: 5px solid rgb(64, 64, 64);
+}
+.main-box-1 {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+}
+.main-box-2 {
+    display: grid;
+    grid-template-columns: 1fr 150px 150px 1fr;
+}
+.main-box-3 {
+    display: grid;
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: 100px 300px 100px 50px;
+}
+.main-box-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.main-box-5 {
+    width: 960px;
+    margin: 0 auto 0 auto;
+    gap: 20px;
+    border: 5px solid rgb(64, 64, 64);
+    display: grid;
+    grid-template-columns: repeat(7, 120px);
+    background-image: url(mes-diciembre.jpg);
+    background-repeat: no-repeat;
+}
+.nombre-mes {
+    grid-column-start: 1;
+    grid-column-end: 8;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 800;
+    color: beige;
+}
+.dia-semana {
+    color: black;
+    font-weight: 900;
+}
+.dia-1 {
+    grid-column-start: 6;
+}
+.box {
+    width: 100%;
+    height: 120px;
+    background-color: forestgreen;
+    color: black;
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.box-diferente {
+    width: 100%;
+    height: 120px;
+    background-color: darkgreen;
+    color: black;
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.box-2 {
+    width: 100%;
+    height: 100%;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-4-1 {
+    background-color: goldenrod;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.box-4-2 {
+    background-color: yellowgreen;
+    grid-template-rows: 1fr;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    height: 100%;
+}
+.dia-mes {
+    font-size: 0.7em;
+    position: relative;
+    top: -40px;
+    left: 45px;
+    font-weight: 900;
+}
+.dia-mes-1 {
+    font-size: 0.7em;
+    position: relative;
+    top: -27px;
+    left: 75px;
+    font-weight: 900;
+}
+.dia-mes-3 {
+    font-size: 0.7em;
+    position: relative;
+    top: -27px;
+    left: 95px;
+    font-weight: 900;
+}
+.dia-mes-10 {
+    font-size: 0.7em;
+    position: relative;
+    top: -15px;
+    left: 92px;
+    font-weight: 900;
+}
+.dia-mes-11 {
+    font-size: 0.7em;
+    position: relative;
+    top: -28px;
+    left: 65px;
+    font-weight: 900;
+}
+.dia-mes-navidad {
+    font-size: 0.7em;
+    position: relative;
+    top: -40px;
+    left: 70px;
+}
+.texto-dia {
+    font-size: 0.6em;
+    position: relative;
+    top: 40px;
+    left: 10px;
+    color: black;
+}
+.texto-dia-1 {
+    font-size: 0.8em;
+    position: relative;
+    top: 55px;
+    left: -63px;
+    color: black;
+    font-weight: 300;
+}
+.texto-dia-3 {
+    font-size: 0.8em;
+    position: relative;
+    top: 55px;
+    left: -95px;
+    color: black;
+    font-weight: 300;
+}
+.texto-dia-7 {
+    font-size: 0.9em;
+    position: relative;
+    top: 55px;
+    left: -55px;
+    color: black;
+    font-weight: 300;
+}
+.texto-dia-10 {
+    font-size: 0.8em;
+    position: relative;
+    top: 35px;
+    left: -43px;
+    color: black;
+    font-weight: 300;
+}
+.texto-dia-11 {
+    font-size: 0.8em;
+    position: relative;
+    top: 55px;
+    left: -45px;
+    color: black;
+    font-weight: 300;
+}
+.lucha-sida {
+    width: 100%;
+    height: 120px;
+    background-color: darkgreen;
+    color: black;
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.lucha-sida:hover {
+    background-image: url(lucha.jpg);
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    width: 130px;
+    height: 130px
+}
+.discapacitado {
+    width: 100%;
+    height: 120px;
+    background-color: darkgreen;
+    color: black;
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.discapacitado:hover {
+    background-image: url(discapacitado.jpg);
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    width: 130px;
+    height: 130px
+}
+.aviacion {
+    width: 100%;
+    height: 120px;
+    background-color: darkgreen;
+    color: black;
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.aviacion:hover {
+    background-image: url(aviacion.jpg);
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    width: 130px;
+    height: 130px
+}
+.derechos-humanos {
+    width: 100%;
+    height: 120px;
+    background-color: darkgreen;
+    color: black;
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.derechos-humanos:hover {
+    background-image: url(derechos-humanos.jpg);
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    width: 130px;
+    height: 130px
+}
+.mountain {
+    width: 100%;
+    height: 120px;
+    background-color: darkgreen;
+    color: black;
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.mountain:hover {
+    background-image: url(mountain.jpg);
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    width: 130px;
+    height: 130px
+}
+.migrante {
+    width: 100%;
+    height: 120px;
+    background-color: darkgreen;
+    color: black;
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.migrante:hover {
+    background-image: url(migrante.jpg);
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    width: 130px;
+    height: 130px
+}
+.solidaridad {
+    width: 100%;
+    height: 120px;
+    background-color: darkgreen;
+    color: black;
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.solidaridad:hover {
+    background-image: url(solidaridad.jpg);
+        background-repeat: no-repeat;
+    transition: all 0.5s;
+    width: 130px;
+    height: 130px
+}
+.navidad {
+    width: 100%;
+    height: 120px;
+    background-color: darkgreen;
+    color: black;
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.navidad:hover {
+    background-image: url(navidad.jpg);
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    width: 130px;
+    height: 130px
+}
+.new-year {
+    width: 100%;
+    height: 120px;
+    background-color: darkgreen;
+    color: black;
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.new-year:hover {
+    background-image: url(new-year.jpg);
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    width: 130px;
+    height: 130px;
+}

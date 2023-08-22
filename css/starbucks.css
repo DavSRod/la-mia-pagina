@@ -35,7 +35,6 @@ header {
   font-family: 'Poppins', sans-serif;
 }
 .main-circle {
-  background-color: rgb(2, 104, 64);
   width: 1800px;
   height: 1800px;
   border-radius: 900px;
@@ -44,10 +43,19 @@ header {
   right: -950px;
   z-index: 5;
 }
+.main-circle-green {
+  background-color: rgb(2, 104, 64);
+}
+.main-circle-rose {
+  background-color: rgb(213, 104, 136);
+}
+.main-circle-pink {
+  background-color: rgb(215, 81, 176);
+}
 h1 {
   font-size: 5em;
   font-family: 'Poppins', sans-serif;
-  font-weight: 500;
+  font-weight: 600;
 }
 .title-color {
   color: rgb(2, 104, 64);
@@ -112,11 +120,20 @@ footer {
   gap: 40px;
   z-index: 10;
 }
-.style-img-mini {
-  z-index: 20;
-}
 .fa-brands {
   cursor: pointer;
+}
+.style-img-mini {
+  z-index: 20;
+  cursor: pointer;
+}
+.thumb {
+  z-index: 20;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.thumb:hover {
+  transform: translateY(-30px);
 }
 /* FONTS */
 /* poppins-regular - latin */

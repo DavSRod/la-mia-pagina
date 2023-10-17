@@ -8,38 +8,36 @@
     <link rel="stylesheet" href="icons/all.css">
 </head>
 <body>
-    <div class="main-content">
-        <label class="lbl-subtotal">Subtotal $  <label id="subTotal">0</label   ></label>
-        <div class="box-proceder-pago">
-            <label>Proceder al pago (<span id="cantProductos">0 Productos</span>)</label>
-        </div>
-        <div class="box-producto">
-            <div class="box-img">
-                <img src="img/react.jpg" alt="">
+    <div class="box-img-ipad-mini">
+        <img class="img-ipad-mini" src="img/ipad-mini.png">
+        <div class="main-content">
+            <label class="lbl-subtotal">Subtotal $  <label id="subTotal">0</label   ></label>
+            <div class="box-proceder-pago">
+                <label>Proceder al pago (<span id="cantProductos">0 Productos</span>)</label>
             </div>
-            <div class="box-info">
-<!--                 <h3 class="book-title">The Road to REACT</h3>
-                <label class="book-description" for="">our journey the master plain yet pragmatic react.js</label>
-                <label class="book-autor" for="">por Robin Wieruch</label>
-                <label class="tipo-tapa" for="">Tapa blanda</label>
-                <label for="" class="txt-precio-unidad">cop <span class="precio-unidad">$130.000</span></label> -->
-                <ul class="text-info">
-                    <li><h3>The Road to React</h3></li>
-                    <li>is a comprehensive and pragmatic yet concise React with Hooks book.</li>
-                    <li>Por Robin Wieruch</li>
-                    <li>Tapa blanda</li>
-                    <li>cop <b class="b-precio" id="precioUnidad"></b></li>
-                </ul>
+            <div class="box-producto">
+                <div class="box-img">
+                    <img src="img/react.jpg" alt="">
+                    <div class="box-plus-minus">
+                        <div id="boxMinus" class="box-minus">
+                            <i class="fa-solid fa-minus"></i>
+                        </div>
+                        <div id="boxUnidades" class="box-unidades">0</div>
+                        <div id="boxPlus" class="box-plus">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-info">
+                    <ul class="text-info">
+                        <li><h3>The Road to React</h3></li>
+                        <li>is a comprehensive and pragmatic yet concise React with Hooks book.</li>
+                        <li>Por Robin Wieruch</li>
+                        <li>Tapa blanda</li>
+                        <li>cop <b class="b-precio" id="precioUnidad"></b></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </div>
-    <div class="box-plus-minus">
-        <div id="boxMinus" class="box-minus">
-            <i class="fa-solid fa-minus"></i>
-        </div>
-        <div id="boxUnidades" class="box-unidades">0</div>
-        <div id="boxPlus" class="box-plus">
-            <i class="fa-solid fa-plus"></i>
         </div>
     </div>
     <script src="js/carrito.js"></script>

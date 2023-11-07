@@ -21,13 +21,12 @@ infoProducto.setAttribute("class", "box-info-producto")
 
 let marcaProducto = document.createElement("label")
 infoProducto.appendChild(marcaProducto)
-let nodoMarcaProducto = document.createTextNode("Mazda CX-5 2.5 Grand Touring/")
+let nodoMarcaProducto = document.createTextNode("Mazda CX-5 2.5 Grand Touring")
 marcaProducto.appendChild(nodoMarcaProducto)
 
+/* Marca */
 /* Cargar el modelo */
-/* Cx-5 */
 /* Precio */
 /* Año */
 /* Kilometraje */
-
-/* Cargar imagen */
+/* Ciudad de procedencia */

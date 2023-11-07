@@ -1,14 +1,33 @@
-let mainContent = document.getElementById("mainContent")
+let boxProductos = document.getElementById("boxProductos")
 
+/* Contenedor para productos inividuales */
 let boxProducto = document.createElement("div")
-mainContent.appendChild(boxProducto)
+boxProductos.appendChild(boxProducto)
 boxProducto.setAttribute("class", "box-producto")
 
+/* Contenedor para la imagen */
+let boxImagen = document.createElement("div")
+boxProducto.appendChild(boxImagen)
+boxImagen.setAttribute("class", "box-imagen")
+let imagenProducto = document.createElement("img")
+boxImagen.appendChild(imagenProducto)
+imagenProducto.setAttribute("src", "img/mazda.png")
+imagenProducto.setAttribute("class", "imagen-producto")
+
+/* Contenedor para la informacion */
+let infoProducto = document.createElement("div")
+boxProducto.appendChild(infoProducto)
+infoProducto.setAttribute("class", "box-info-producto")
+
 let marcaProducto = document.createElement("label")
-mainContent.appendChild(marcaProducto)
-let nodoMarcaProducto = document.createTextNode("Mazda")
+infoProducto.appendChild(marcaProducto)
+let nodoMarcaProducto = document.createTextNode("Mazda CX-5 2.5 Grand Touring/")
 marcaProducto.appendChild(nodoMarcaProducto)
 
-let imgProducto = document.createElement("img")
-mainContent.appendChild(imgProducto)
-imgProducto.setAttribute("src", "img/mazda.webp")
+/* Cargar el modelo */
+/* Cx-5 */
+/* Precio */
+/* Año */
+/* Kilometraje */
+
+/* Cargar imagen */

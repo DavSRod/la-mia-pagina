@@ -17,22 +17,29 @@ let auto3 = new Automovil("Mazda", "3 2.0 Grand Touring", "$74.500.000", 2018, "
 let auto4 = new Automovil("Toyota", "Fortuner 4.0 Sr5", "$107.000.000", 2011, "169.000 Km", "Usaquén - Bogotá D.C.", "img/toyotaFortuner.jpg")
 
 let boxProductos = document.getElementById("boxProductos")
-let inputBusqueda = document.getElementById("inputBusqueda").value
+cargarAutomovil(auto1)
+cargarAutomovil(auto2)
+cargarAutomovil(auto3)
+cargarAutomovil(auto4)  
 
 window.addEventListener("keydown", (event) => {
+    let inputBusqueda = document.getElementById("inputBusqueda").value
     if (event.key =="Enter") {
-        let inputBusquedaAux = inputBusqueda.toString()
+        boxProductos.innerHTML = ""
+        let inputBusquedaAux = inputBusqueda.toLowerCase()
         if(inputBusquedaAux == "mazda") {
             cargarAutomovil(auto1)
             cargarAutomovil(auto3)
         }
+        else if (inputBusquedaAux == "toyota") {
+            cargarAutomovil(auto2)
+            cargarAutomovil(auto4)
+        }
+        else {
+            alert ("Escriba bien, joven")
+        }
     }
 })
-
-cargarAutomovil(auto1)
-cargarAutomovil(auto2)
-cargarAutomovil(auto3)
-cargarAutomovil(auto4)
 
 function cargarAutomovil(auto) {
     /* Contenedor para productos inividuales */
@@ -90,4 +97,3 @@ function cargarAutomovil(auto) {
     ciudad.appendChild(nodoCiudad)
     ciudad.setAttribute("class", "ciudad")
 }
-

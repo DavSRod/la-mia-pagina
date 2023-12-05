@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.titulo {
+    color: red;
+    display: flex;
+    padding: 10px;
+}
+.pre-texto {
+    display: flex;
+    font-weight: 600;
+    font-size: 1.1em;
+    padding: 10px;
+}
+.post-texto {
+    display: flex;
+    color: blue;
+    font-weight: 600;
+    font-size: 1.1em;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.box-calificacion-1 {
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 200px;
+    border-radius: 5px;
+    height: 35px;
+    border: 2px solid rgb(200, 200, 200, .8);
+}
+.porcentaje-calificacion-1 {
+    height: 35px;
+    background-color: gold;
+    width: 100px;
+}
+.box-calificaciones {
+    display: flex;
+}

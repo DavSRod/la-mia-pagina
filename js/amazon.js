@@ -9,8 +9,12 @@ btnGraficar.addEventListener("click", function() {
     let sumaCalificacion = Number(calificacion1.value) + Number(calificacion2.value) + Number(calificacion3.value) + Number(calificacion4.value) + Number(calificacion5.value)
 /*     alert(sumaCalificacion) */
 
-    let porcentaje = calificacion1.value / sumaCalificacion * 100
-    alert(porcentaje)
+    let promCalificacion1 = calificacion1.value * 100  / sumaCalificacion
+    let promCalificacion2 = calificacion2.value * 100  / sumaCalificacion
+    let promCalificacion3 = calificacion3.value * 100  / sumaCalificacion
+    let promCalificacion4 = calificacion4.value * 100  / sumaCalificacion
+    let promCalificacion5 = calificacion5.value * 100  / sumaCalificacion
+    alert(promCalificacion1)
 /*     calificacion1.value
     calificacion2.value
     calificacion3.value

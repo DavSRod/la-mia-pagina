@@ -19,7 +19,7 @@ header {
 header .logo {
     position: relative;
     font-weight: 700;
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 2em;
     text-transform: uppercase;
@@ -38,7 +38,7 @@ header #toggle:before {
     top: 7px;
     width: 100%;
     height: 2px;
-    background-color: white;
+    background-color: black;
 }
 header #toggle:after {
     content: '';
@@ -46,7 +46,7 @@ header #toggle:after {
     bottom: 7px;
     width: 100%;
     height: 2px;
-    background-color: white;
+    background-color: black;
 }
 .banner.active header #toggle:before {
     top: 50%;
@@ -63,7 +63,7 @@ header #toggle:after {
     width: 100%;
     min-height: 100vh;
     padding: 100px;
-    background-image: url(bg.jpg);
+    background-image: url(bg2.jpg);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -79,7 +79,7 @@ header #toggle:after {
     right: -200px;
     width: 400px;
     height: 100vh;
-    background-color: #40c3ff;
+    background-color: goldenrod;
     z-index: 1;
     display: grid;
     place-items: center;
@@ -105,7 +105,7 @@ header #toggle:after {
     text-transform: uppercase;
 }
 #navigation ul li a:hover {
-    color: darkblue;
+    color: blue;
     font-size: 2em;
     transition: all 0.5s;
 }
@@ -113,24 +113,24 @@ header #toggle:after {
     max-width: 600px;
 }
 .content h2 {
-    color: white;
+    color: black;
     font-size: 2.5em;
 }
 .content h2 span {
-    color: #40c3ff;
+    color: blue;
     font-size: 1.2em;
 }
 .content p {
     font-size: 1.2em;
-    color: white;
-    font-weight: 300;
+    color: black;
+    font-weight: 500;
 }
 .content a {
     position: relative;
     display: inline-block;
     margin-top: 20px;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     padding: 10px 30px;
     text-decoration: none;
     font-size: 1.2em;
